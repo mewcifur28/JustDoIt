@@ -1,5 +1,5 @@
 # Just Do It!
-## This is a to-do list application
+## This is a to-do list application made using vanilla javascript(ES6) and materializeCSS
 
 ### Features:
 - Add a new task
