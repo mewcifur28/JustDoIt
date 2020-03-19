@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Just Do It!</title>
+  </head>
+  <body class="grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="card grey darken-4">
+            <div class="card-content white-text">
+              <span class="card-title"><h2>Just Do It!</h2></span>
+              <form id="task-form">
+                <div class="input-field">
+                  <input type="text" id="input-text" class="white-text">
+                  <label for="new-task">New Task</label>
+                  <button type="submit" id="add-task-btn" class="btn waves-effect waves-light blue accent-2">
+                    <i class="material-icons left">library_add</i>
+                    Add Task
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="card-action">
+              <h4 class="white-text">Tasks</h4>
+              <div class="input-field">
+                <i class="material-icons prefix white-text">search</i>
+                <input type="text" class="filter white-text" id="filter">
+                <label for="filter">Search Tasks</label>
+              </div>
+              <ul class="collection"></ul>
+              <button class="btn waves-effect waves-light blue accent-2" id="clear-all"><i class="material-icons left">delete_sweep</i>Clear All Tasks</button>
+              <a href="#"></a>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="./app.js"></script>
+  </body>
+</html>
