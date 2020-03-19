@@ -13,3 +13,5 @@
 - HTML5
 - Materialize
 - Javascript ES6
+
+![Screenshot of the web app](https://github.com/mewcifur28/JustDoIt/blob/master/images/screenshot1.png)
